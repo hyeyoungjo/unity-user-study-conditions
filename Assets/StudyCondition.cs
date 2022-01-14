@@ -5,7 +5,7 @@ using UnityEngine;
 // Define study name and corresponding numeric value in the 'StudyCondition.csv' file.
 // Then, write down study order in the 'StudyOrder.csv' file.
 
-public enum LocationCondition 
+public enum StudyCondition 
 {
     Default=0, // always write default
     FirstCondition=1, 
