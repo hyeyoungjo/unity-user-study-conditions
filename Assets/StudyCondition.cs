@@ -11,6 +11,6 @@ public enum StudyCondition
     FirstCondition=1, 
     SecondCondition=2,
     ThirdCondition=3, 
-    FourCondition=4
+    FourthCondition=4
 };
 
