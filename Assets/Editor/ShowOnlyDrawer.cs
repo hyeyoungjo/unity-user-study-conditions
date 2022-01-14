@@ -27,6 +27,16 @@ using UnityEditor;
             case SerializedPropertyType.Enum:
                 valueStr = prop.enumNames[prop.enumValueIndex];
                 break;
+            case SerializedPropertyType.ObjectReference:
+                try 
+                {
+                    valueStr = prop.objectReferenceValue.ToString ();
+                } 
+                catch (System.NullReferenceException) 
+                {
+                    valueStr = "None (Game Object)";
+                }
+                break;
              default:
                  valueStr = "(not supported)";
                  break;
