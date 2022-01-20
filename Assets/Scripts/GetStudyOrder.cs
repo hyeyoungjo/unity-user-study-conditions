@@ -62,5 +62,6 @@ public class GetStudyOrder : MonoBehaviour
                  }
              }
         }
+        strReader.Close();
     }
 }
